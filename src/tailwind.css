@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+.fontmaster {
+    @apply font-inter font-semibold;
+}
+
+.jumbohead {
+    @apply px-2 h-screen flex-col flex items-center;
+}
+
+@tailwind utilities;
