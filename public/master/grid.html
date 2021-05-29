@@ -14,19 +14,19 @@
 
 <body class="fontmaster antialiased bg-purple-600">
     <!-- navbar -->
-    <nav class="block md:flex justify-between items-center px-5 py-1 text-white">
+    <nav class="block md:flex justify-between items-center bg-gray-700 px-5 py-1 text-white">
         <div class="py-4 flex items-center justify-between">
             <div>
                 <img src="../asset/discord.svg" class="h-10 inline-block" />
                 <span class="px-2 text-md hidden sm:inline-block">Discord Community</span>
             </div>
-            <div class="md:hidden dropdown bg-purple-700 p-1 rounded-sm cursor-pointer transition-colors duration-100 hover:bg-purple-800">
+            <div class="md:hidden dropdown bg-gray-800 p-1 rounded-sm cursor-pointer transition-colors duration-100 hover:bg-purple-800">
                 <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
                   </svg>
             </div>
         </div>
-        <div class=" hidden md:flex items-center border-t md:border-none border-purple-300 opacity-0 transition">
+        <div class=" hidden md:flex items-center border-t md:border-none border-purple-300 opacity-0 lg:opacity-100 transition">
             <a href="#" class="p-2 mt-1 md:p-4 block hover:bg-purple-700">Download</a>
             <a href="#" class="p-2 md:p-4 block hover:bg-purple-700">Why Discord?</a>
             <a href="#" class="p-2 lg:p-4 block hover:bg-purple-700">Nitro</a>
@@ -36,23 +36,24 @@
 
     </nav>
     <!-- herobar -->
-    <div class="jumbohead py-10 lg:px-7 lg:py-10">
-        <div class="px-2 w-full lg:w-2/4 mx-auto flex justify-center">
+    <div class="jumbohead bg-gray-700 py-10 lg:px-7 lg:py-10 relative">
+        <img src="https://discord.com/assets/a188414ce83f2454b9d71a47c3d95909.svg" class="absolute top-0">
+        <div class="px-2 w-full lg:w-2/4 mx-auto flex items-center justify-center z-10">
             <img src="https://discord.com/assets/d0d4785a2a708e2e6aae274cbe13cb6c.svg" alt="">
         </div>
-        <div class=" px-3 py-4 w-full lg:w-3/4 text-center text-white mx-auto">
-            <h1 class="text-3xl lg:text-5xl font-bold">Your place to talk</h1>
+        <div class=" px-3 py-4 w-full lg:w-3/4 text-center text-white mx-auto z-10">
+            <h1 class="text-3xl lg:text-5xl font-bold">Discord Community</h1>
             <p class="text-md mt-4 lg:text-lg leading-7">Whether you’re part of a school club, gaming group, worldwide art community, or just a handful of friends that want to spend time together, Discord makes it easy to talk every day and hang out more often.</p>
         </div>
         <div class="flex space-x-2">
-            <button class="px-6 py-3 bg-gray-700 text-white rounded-lg block">Download</button>
+            <button class="px-6 py-3 bg-gray-600 text-white rounded-lg block">Download</button>
             <button class="px-6 py-3 bg-purple-800 block text-white rounded-lg">Open In Browser</button>
         </div>
     </div>
 
     <!-- Jumbotron -->
     <div class="jumbohead py-12 lg:px-7 lg:flex-row w-full lg:py-24 h-full">
-        <div class=" w-full lg:w-2/3 h-1/2 lg:h-3/4 flex items-center justify-start">
+        <div class=" w-full lg:w-2/3 h-1/2 lg:h-3/4 flex items-center justify-center lg:justify-start">
             <img src="https://discord.com/assets/c01c644bc9fa2a28678ae2f44969d248.svg" alt="discord-svg">
         </div>
         <div class="text-white py-10 w-full lg:w-1/3 h-1/4 lg:h-3/4 flex flex-col items-center justify-center px-2 lg:px-4 text-left">
@@ -66,13 +67,13 @@
             <h1 class="text-3xl lg:text-5xl font-bold">Where hanging out is easy</h1>
             <p class="mt-2 lg:mt-4 text-md lg:text-lg leading-7">Grab a seat in a voice channel when you’re free. Friends in your server can see you’re around and instantly pop in to talk without having to call.</p>
         </div>
-        <div class="px-2 w-full lg:w-2/3 h-1/2 lg:h-3/4 flex items-center justify-end">
+        <div class="px-2 w-full lg:w-2/3 h-1/2 lg:h-3/4 flex items-center justify-center lg:justify-end">
             <img src="https://discord.com/assets/98c9edf635a98377ec579aaa19ed47be.svg" alt="discord-svg">
         </div>
     </div>
     <!-- jumbotron -->
     <div class="jumbohead lg:px-7 lg:py-24 py-12 lg:flex-row h-full">
-        <div class="px-2 w-full lg:w-2/3 h-1/2 lg:h-3/4 flex items-center justify-start">
+        <div class="px-2 w-full lg:w-2/3 h-1/2 lg:h-3/4 flex items-center justify-center lg:justify-start">
             <img src="https://discord.com/assets/9184fcadc2e3c84650dd4b075850d3d6.svg" alt="discord-svg">
         </div>
         <div class="text-white py-10 w-full lg:w-1/3 h-1/4 lg:h-3/4 flex flex-col items-center justify-center px-2 lg:px-4 text-left">
@@ -81,7 +82,7 @@
         </div>
     </div>
     <!-- hero -->
-    <div class="jumbohead py-12 lg:px-7 lg:py-28">
+    <div class="jumbohead py-14 lg:px-7 lg:py-20 lg:mb-32">
         <div class=" px-2 w-full lg:w-3/4 text-center text-white mx-auto">
             <h1 class="text-3xl lg:text-5xl font-bold">Reliable tech for staying close</h1>
             <p class="text-md mt-4 lg:text-lg leading-7">Low-latency voice and video feels like you’re in the same room. Wave hello over video, watch friends stream their games, or gather up and have a drawing session with screen share.</p>
@@ -89,6 +90,74 @@
         <div class="px-2 w-full lg:w-3/4 mx-auto flex justify-center">
             <img src="https://discord.com/assets/f61264d792fd2556a618c95d97b5de07.svg" alt="">
         </div>
+    </div>
+    <!-- footer -->
+    <div class="w-full bg-gray-700 h-2/6 px-7 flex flex-col lg:flex-row py-10 text-white">
+        <div class="contact w-full lg:w-1/2">
+            <h1 class="text-3xl lg:text-3xl font-bold mb-8">Your Place to talk</h1>
+            <img src="https://discord.com/assets/e6d6b255259ac878d00819a9555072ad.png" class="w-8 inline-block">
+            <span class="text-sm mx-2">English, USA</span>
+            <div class="flex py-4 space-x-2">
+                <img src="../asset/twitter.svg" alt="">
+                <img src="../asset/facebook.svg" alt="">
+                <img src="../asset/instagram.svg" alt="">
+                <img src="../asset/youtube.svg" alt="">
+            </div>
+        </div>
+        <div class="w-full lg:w-3/4 pt-10 lg:pt-0 flex-wrap flex items-start lg:justify-center  lg:space-x-10 leading-7 text-sm lg:leading-8 cursor-pointer">
+            <div class="mr-8">
+                <ul>
+                    <li class="text-purple-500">Product</li>
+                    <li>Download</li>
+                    <li>Why Discord</li>
+                    <li>Inspiration</li>
+                    <li>College</li>
+                    <li>Nitro</li>
+                    <li>Status</li>
+                </ul>
+            </div>
+            <div class="mr-8">
+                <ul>
+                    <li class="text-purple-500">Company</li>
+                    <li>About</li>
+                    <li>Jobs</li>
+                    <li>Branding</li>
+                    <li>Newsroom</li>
+                    <li>Store</li>
+                    <li>Status</li>
+                </ul>
+            </div>
+            <div class="mr-8">
+                <ul>
+                    <li class="text-purple-500">Resources</li>
+                    <li>Support</li>
+                    <li>Safety</li>
+                    <li>Blog</li>
+                    <li>Feedback</li>
+                    <li>Partners</li>
+                    <li>Verification</li>
+                    <li>Developers</li>
+                    <li>StreamKit</li>
+                    <li>Open Source</li>
+                    <li>Security</li>
+                    <li>Moderation</li>
+                </ul>
+            </div>
+            <div class="mr-8">
+                <ul>
+                    <li class="text-purple-500">Polices</li>
+                    <li>Terms</li>
+                    <li>Privacy</li>
+                    <li>Guidelines</li>
+                    <li>Acknowledgements</li>
+                    <li>Licenses</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="bg-gray-700 px-7 flex justify-center items-center lg:block">
+        <img src="../asset/discord.svg" class="inline-block w-10">
+        <span class="px-2 text-md  text-white inline-block">Discord Community.</span>
     </div>
 </body>
 <script src="../js/script.js"></script>
