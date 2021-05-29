@@ -235,6 +235,7 @@ module.exports = {
         },
         fontFamily: {
             inter: ['Inter', 'sans-serif'],
+            poppins: ['Poppins', 'sans-serif'],
             sans: [
                 'ui-sans-serif',
                 'system-ui',
@@ -959,5 +960,5 @@ module.exports = {
         wordBreak: ['responsive'],
         zIndex: ['responsive', 'focus-within', 'focus'],
     },
-    plugins: [],
+    plugins: [require('@tailwindcss/forms'), ],
 }

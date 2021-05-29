@@ -5,5 +5,11 @@ $(document).ready(function() {
         window.setTimeout(function() {
             el.parent().next().toggleClass('opacity-100');
         }, 200);
-    })
+    });
+    $('#password').on('focus', function() {
+        $('.eye').addClass('hidden');
+    });
+    $('#password').on('focusout', function() {
+        $('.eye').removeClass('hidden');
+    });
 });

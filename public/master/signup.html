@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body class="font-poppins bg-gray-100 antialiased">
+    <form action="">
+        <div class="container mx-auto flex justify-center">
+            <div class="h-full w-full lg:w-1/3 bg-white lg:my-2 p-8 shadow-md">
+                <div>
+                    <h1 class="text-xl font-bold mb-10">Sign Up</h1>
+                </div>
+                <div class="my-4">
+                    <label for="name" class="text-sm font-medium block mb-2 text-gray-700">Name</label>
+                    <input type="text" name="name" placeholder="Your fullname" class="font-medium form-input w-full border-gray-100 rounded-md text-gray-400 py-3 px-4 text-sm placeholder-gray-400">
+                </div>
+                <div class="my-4">
+                    <label for="name" class="text-sm font-medium block mb-2 text-gray-700">Email</label>
+                    <input type="email" name="email" placeholder="youremail@mail.com" class="font-medium form-input w-full border-gray-100 rounded-md text-gray-400 py-3 px-4 text-sm placeholder-gray-400">
+                </div>
+                <div class="my-4">
+                    <label for="password" class="text-sm font-medium block mb-2 text-gray-700">Password</label>
+                    <div class="relative">
+                        <input type="password" name="password" id="password" placeholder="Min.8 characters" class="font-medium form-input w-full border-gray-100 rounded-md text-gray-400 py-3 px-4 text-sm placeholder-gray-400">
+                        <div class="absolute top-0 right-3 flex items-center inset-y-0 eye">
+                            <img src="../asset/eye.svg" class="w-4">
+                        </div>
+                    </div>
+                </div>
+                <div class="my-2">
+                    <input type="checkbox" name="agree" class="border-gray-200 bg-gray-50 rounded-sm">
+                    <label for="agree" class="text-xs font-medium text-gray-500 ml-3">I agree to the <span class="text-purple-700">Terms & Condition</span></label>
+                </div>
+                <div class="my-4 flex items-center flex-col">
+                    <button class=" text-white bg-purple-600 font-semibold py-2 rounded-md w-full border-4 border-purple-600 focus:border-purple-700">Sign Up</button>
+                    <p class="font-medium my-4 block">Or</p>
+                    <button class=" bg-white text-gray-600 font-medium border border-gray-500 text-xs py-4 rounded-md w-full"><span class="mr-3"><img src="../asset/google.svg" class="inline-block"></span> Sign up with Google</button>
+                    <p class="text-xs font-medium text-gray-500 my-4 self-start">Already have an account? <span class="text-purple-700 ml-1">Sign In</span></p>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+<script src="../js/script.js"></script>
+
+</html>
